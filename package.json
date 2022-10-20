@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "ts-node index.ts"
+    "dev": "ts-node -C ttypescript index.ts"
   },
   "devDependencies": {
     "@swc/core": "^1.3.9",
