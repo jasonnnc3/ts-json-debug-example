@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "noEmit": true,
+    "strict": true,
+    "lib": ["esnext"],
+    "plugins": [
+      {
+        "transform": "typescript-json/lib/transform"
+      }
+    ]
+  },
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "swc": true
+  }
+}
